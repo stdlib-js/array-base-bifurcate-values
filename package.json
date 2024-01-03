@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-bifurcate-values",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Split array element values into two groups.",
   "license": "Apache-2.0",
   "author": {
