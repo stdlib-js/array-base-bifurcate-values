@@ -111,7 +111,7 @@ var out = bifurcateValues( x, filter );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var take = require( '@stdlib/array-base-take' );
+var take = require( '@stdlib/array-base-take-indexed' );
 var bifurcateValues = require( '@stdlib/array-base-bifurcate-values' );
 
 // Define an initial array of values:
@@ -195,8 +195,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-bifurcate-values.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-bifurcate-values
 
-[test-image]: https://github.com/stdlib-js/array-base-bifurcate-values/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/array-base-bifurcate-values/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/array-base-bifurcate-values/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/array-base-bifurcate-values/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-bifurcate-values/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-bifurcate-values?branch=main
