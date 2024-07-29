@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bifurcateValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values@esm/index.mjs';
+import bifurcateValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values@v0.2.2-esm/index.mjs';
 ```
 
 #### bifurcateValues( x, filter )
@@ -99,7 +99,7 @@ var out = bifurcateValues( x, filter );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take-indexed@esm/index.mjs';
-import bifurcateValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values@esm/index.mjs';
+import bifurcateValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values@v0.2.2-esm/index.mjs';
 
 // Define an initial array of values:
 var values = [ 'beep', 'boop', 'foo', 'bar', 'woot', 'woot' ];
