@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Split array element values into two groups.
+* Splits array element values into two groups.
 *
-* @module @stdlib/array-base-bifurcate-values
+* @param x - input array
+* @param filter - array indicating which group an element in the input array belongs to
+* @returns results
 *
 * @example
-* var bifurcateValues = require( '@stdlib/array-base-bifurcate-values' );
-*
 * var x = [ 'beep', 'boop', 'foo', 'bar' ];
 * var filter = [ true, true, false, true ];
 *
 * var out = bifurcateValues( x, filter );
 * // returns [ [ 'beep', 'boop', 'bar' ], [ 'foo' ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function bifurcateValues<T = unknown>( x: Collection<T> | AccessorArrayLike<T>, filter: Collection | AccessorArrayLike<any> ): [ Array<T>, Array<T> ]; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 
 // EXPORTS //
 
-module.exports = main;
+export = bifurcateValues;
